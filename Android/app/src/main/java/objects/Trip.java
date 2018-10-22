@@ -62,5 +62,9 @@ public class Trip implements Serializable {
         return mTname;
     }
 
+    public void setId(String id) {
+        this.mId = id;
+    }
+
 
 }
